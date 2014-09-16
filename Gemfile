@@ -41,7 +41,9 @@ group :production do
 end
 
 group :test do
-	gem 'selenium-webdriver', '2.0.0'
+	#http://stackoverflow.com/questions/18528631/rspec-error-regarding-selenium-webdriver
+	#2.0.0 had some errors
+	gem 'selenium-webdriver', '2.35.1'
 	gem 'capybara', '2.1.0'
 end
 
