@@ -102,6 +102,7 @@ describe User do
 		it { should_not be_valid }
 	end
 
+	
 
 
 
